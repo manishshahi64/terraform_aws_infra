@@ -1,7 +1,7 @@
 variable "vpc_cidr" {
-    default = "10.0.0.0/16"
+    description = "CIDR for the VPC"
 }
 
 variable "instances_type" {
-    default = "t2.micro"
+    description = "Instance type value Eg: t2.micro, t2.large"
 }
